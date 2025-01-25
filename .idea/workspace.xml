@@ -25,7 +25,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d706d90-29fe-492a-9348-2fee8d5265b7" name="Changes" comment="" />
+    <list default="true" id="9d706d90-29fe-492a-9348-2fee8d5265b7" name="Changes" comment="Reformating.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Zly-u"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Zly-u/Godot_GDECPP_CMake-_Example.git",
+    "accountId": "28518ecd-df0f-4180-af33-8191b2282f64"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/plugin.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -60,11 +77,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "CMake Application.BuildAndRun.executor": "Debug",
-    "CMake Application.BuildAndRunEditor.executor": "Debug",
+    "CMake Application.BuildAndRunEditor.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.advertisement.text.has.clang-format": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
@@ -91,17 +109,17 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.BuildAndRunEditor">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BuildAndRun" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--path $ContentRoot$\demo" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="example_cmake_plugin" TARGET_NAME="example_cmake_plugin" CONFIG_NAME="Debug" RUN_PATH="D:/game/SteamGames/SteamApps/common/Godot Engine/godot.windows.opt.tools.64.exe">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="BuildAndRunEditor" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-e --path $ContentRoot$\demo" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="example_cmake_plugin" TARGET_NAME="example_cmake_plugin" CONFIG_NAME="Debug" RUN_PATH="D:/game/SteamGames/SteamApps/common/Godot Engine/godot.windows.opt.tools.64.exe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -133,8 +151,18 @@
       <updated>1737369844876</updated>
       <workItem from="1737369847918" duration="5484000" />
       <workItem from="1737375651070" duration="315000" />
-      <workItem from="1737376184230" duration="3361000" />
+      <workItem from="1737376184230" duration="5178000" />
+      <workItem from="1737831647462" duration="3757000" />
     </task>
+    <task id="LOCAL-00001" summary="Reformating.">
+      <option name="closed" value="true" />
+      <created>1737836512649</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737836512649</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,15 +173,8 @@
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/gdexample.cpp</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reformating." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformating." />
   </component>
 </project>

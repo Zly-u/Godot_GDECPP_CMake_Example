@@ -3,8 +3,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 ########################################################################################################################
 
-set(PROJECT_NAME "example_cmake_plugin")
-project(${PROJECT_NAME} LANGUAGES CXX)
+project(example_cmake_plugin LANGUAGES CXX)
 
 set(ENTRY_POINT "plugin_init")
 set(GODOT_MIN_REQUIREMENT 4.3)
